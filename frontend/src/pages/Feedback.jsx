@@ -69,7 +69,7 @@ const Feedback = () => {
   return (
     <Paper
       elevation={4}
-      style={{ maxWidth: 500, margin: "40px auto", padding: 20 }}
+      style={{ maxWidth: 500, margin: "40px auto", padding: 20, marginTop:'90px' }}
     >
       <h2 style={{ textAlign: "center" }}>
         {listedCourse ? "Update Course Feedback" : "Add Course Feedback"}
@@ -137,7 +137,7 @@ const Feedback = () => {
               padding: "10px",
             }}
           >
-            {listedCourse ? "Update Feedback" : "Submit Feedback"}
+            {listedCourse ? "Update" : "Submit"}
           </Button>
         </div>
       </form>
