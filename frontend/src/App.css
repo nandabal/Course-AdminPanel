@@ -1,0 +1,20 @@
+.btn-edit{
+      background: #8000803d !important;
+    color: purple !important;
+}
+.btn-dlt{
+  background: #ff00002e !important;
+    color: red !important;
+}
+.popup{
+  position: fixed;
+    width: 100%;
+    background: #24262ba3;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

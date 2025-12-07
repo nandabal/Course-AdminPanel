@@ -1,0 +1,16 @@
+.nav ul{
+        border: 1px solid;
+    display: flex;
+    justify-content: end;
+    padding: 23px;
+    width: 100%;
+    background-color: #008B8B;
+}
+.nav ul li{
+    list-style: none;
+    padding-right: 20px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+}
